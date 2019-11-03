@@ -1,0 +1,140 @@
+body{
+    background-color: #f0efef;
+    margin: 0;
+}
+
+/* 1st Section */
+
+header{
+    background-color: #033048;
+    padding: 30px;
+    
+    
+    
+    
+    
+}
+
+.header-bar{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+
+    
+    
+    
+    
+    
+}
+
+
+
+.navbar > nav > a{
+    font: 2em semibold;
+    text-decoration: none;
+    color: #f9e42e;
+    padding: 20px;
+    text-align-last: center;
+    margin: 10px;
+    
+}
+
+/* 2nd Section */
+
+article{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 100px;
+    margin-left: 100px;
+    width: 65%;
+    padding: 100px;
+    
+}
+
+
+
+
+
+
+
+article > .first-post > h1{
+    font: 2em semibold;
+}
+
+article > .first-post > p{
+    font: 1.1em light;
+
+}
+
+article > .first-post > a{
+    font: 1.1em semibold;
+    text-decoration: none;
+    color: #121212;
+    margin-left: 600px;
+}
+
+article > .second-post > h1{
+    font: 2em semibold;
+}
+
+article > .second-post > p{
+    font: 1.1em light;
+
+}
+
+article > .second-post > a{
+    font: 1.1em semibold;
+    text-decoration: none;
+    color: #121212;
+    margin-left: 600px;
+}
+
+.ad{
+    background-color: white;
+    padding: 50px;
+}
+
+.btn-area{
+    background-color: #f9e42e;
+    padding: 10px;
+    background-size: cover;
+}
+
+
+.btn-area > .btn{    
+    background-color: #033048;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.btn > a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+    
+    
+    
